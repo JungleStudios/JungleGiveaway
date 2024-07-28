@@ -1,0 +1,21 @@
+{
+  "token": "BOT-TOKEN",
+  "clientId": "BOT-CLIENT-ID",
+  "guildId": "SERVER-ID",
+  "giveaway": {
+    "messages": {
+      "giveawayStarted": "🎉 A new giveaway has started! 🎉",
+      "giveawayEnded": "🎉 The giveaway has ended! 🎉",
+      "giveawayJoin": "You have successfully joined the giveaway!",
+      "giveawayJoinFailed": "Failed to send a DM. Please check your privacy settings.",
+      "giveawayNoParticipants": "No participants, giveaway cancelled.",
+      "giveawayWinner": "Congratulations {winners}! You won **{prize}**!",
+      "giveawayCancelled": "The giveaway was cancelled."
+    },
+    "embed": {
+      "title": "🎉 Giveaway 🎉",
+      "description": "Prize: **{prize}**\nReact with 🎉 to participate!\nDuration: **{duration}**",
+      "color": "#00FF00"
+    }
+  }
+}
